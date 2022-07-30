@@ -216,7 +216,7 @@
 .tab {
   display:inline-block;
   padding: 15px 25px;
-  width: 205px;
+  width: 33.33%;
   text-align: center;
   color: white;
   font-size: 18px;
@@ -287,7 +287,7 @@
   align-items: center;
   font-size: 40px;
   height: 100px;
-  margin: 0;
+  margin: 0px;
   background-color: #253551;
   color: white;
   border-style: solid;
