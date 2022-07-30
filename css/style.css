@@ -109,7 +109,7 @@
 
 
 
-.hero-text-box {
+#hero-text-box {
   display: block;
   background-color: white;
   height: 350px;
@@ -124,7 +124,7 @@
 }
 
 @media screen and (max-width:600px) {
-  .hero-text-box {
+  #hero-text-box {
     width: 500px;
     margin-left: 60px;
   }
@@ -202,6 +202,85 @@
   }
 }
 
+/*this is start css for tabs interaction*/
+
+
+
+
+.tabContainer {
+  max-width: 100%;
+  background-color: #F4F4F4;
+  margin: 0 auto;
+
+}
+.tab {
+  display:inline-block;
+  padding: 15px 25px;
+  width: 205px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: arial, helvetica;
+  cursor: pointer;
+}
+.tabBar {
+  display: flex;
+  background-color: #999999;
+  margin-top: 0px;
+  justify-content: center;
+}
+.tab1 {
+
+}
+.tab2 {
+
+}
+
+.tab3 {
+
+}
+
+.active {
+  background-color: #FFD700;
+  color: black;
+}
+#tabContent1{
+  margin-top: 20px;
+
+
+}
+#tabContent2 {
+  display:none;
+  margin-top: 50px;
+}
+
+#tabContent3 {
+  display:none;
+  margin-top: 50px;
+}
+
+.grid {
+
+}
+.listItem {
+  padding: 18px;
+}
+
+
+
+
+
+
+
+
+
+/*this is end of css for tabs interaction*/
+
+
+
+
+
+
 .ux-skills-header {
   display: flex;
   justify-content: center;
@@ -212,16 +291,13 @@
   background-color: #253551;
   color: white;
   border-style: solid;
-  margin-bottom: 50px;
 
 }
 
 .my-ux-skills{
-  display: grid;
-  place-items: center;
-  grid-template-rows: 500px 100px 200px;
-  grid-template-columns: 1fr 1fr 1fr;
-  height: 700px;
+  display: flex;
+  height: 550px;
+  place-content: center;
 }
 
 
@@ -232,7 +308,8 @@
     grid-template-columns: 1fr;
     width:fit-content;
     width: 465px;
-    height: 2000px;
+    height: 600px;
+    place-content: center;
   }  
 }
 
