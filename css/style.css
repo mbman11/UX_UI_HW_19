@@ -1,5 +1,6 @@
 
 
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -17,13 +18,23 @@
   padding: 20px;
 
 }
-
+@media screen and (max-width:700px) {
+  .nav-logo {
+    font-size: 20px;
+  }
+}
 
 .nav-right-side {
   display: flex;
   width: 600px;
   justify-content: space-around;
   padding:auto;
+}
+@media screen and (max-width:700px) {
+  .nav-right-side {
+    font-size: 10px;
+  }
+  
 }
 
 .nav-home {
@@ -195,7 +206,7 @@
   border-radius: 800px;
   object-fit: cover;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
   .portfolio-guy {
     width: 0px;
     height: 0px;
@@ -230,9 +241,12 @@
   justify-content: center;
 }
 .tab1 {
+  text-align: center;
+  place-items: center;
 
 }
 .tab2 {
+
 
 }
 
@@ -443,6 +457,13 @@
   height: 300px;
   width: 520px;
 }
+@media screen and (max-width:700px) {
+  .recent-work-img-1 {
+    width: 450px;
+    height: 230;
+
+  }
+}
 
 .angel-p {
   width: 500px;
@@ -529,23 +550,49 @@
 
 }
 
+@media screen and (max-width:500px) {
+  .footer {
+    display: flex;
+    width: 469px;
+    height: 200px;
+  }
+  
+}
+
+
 
 .footer-text-1 {
   color:white;
   font-size: 42px;
-  width: 300px;
+
   display: flex;
   align-items: center;
   margin:0px;
   margin-left: 50px;
 }
+@media screen and (max-width:600px) {
+  .footer-text-1 {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  
+}
 
 .footer-text-2 {
   color: white;
   font-size: 42px;
-  width: 541px;
   display: flex;
   align-items: center;
-  margin: 0px;
-  margin-right: 49px;
+  margin-right: 50px;
+
+
+}
+
+@media screen and (max-width:600px) {
+  .footer-text-2 {
+    display: flex;
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  
 }
