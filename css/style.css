@@ -127,6 +127,7 @@
   width: 550px;
   margin-left: 150px;
   margin-top: 150px;
+  margin-right: 100px;
   justify-content: center;
   align-items: center;
   border-width: 0.05px;
@@ -198,7 +199,8 @@
 .portfolio-guy {
 
   height: 500px;
-  margin-left: 300px;
+  margin-left: 250px;
+
   width: 500px;
   justify-content: center;
   align-items: center;
