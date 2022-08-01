@@ -209,7 +209,7 @@
   border-radius: 800px;
   object-fit: cover;
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:1200px) {
   .portfolio-guy {
     display: none;
   }
